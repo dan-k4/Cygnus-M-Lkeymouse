@@ -148,5 +148,16 @@
         extra1 {
             status = "reserved";
         };
+
+        win_base {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &hm LCTRL A  &hm LALT S  &hm LGUI D  &hm LSHFT F  &trans  &trans    &trans  &trans  &hm RSHFT J  &hm RGUI K  &hm RALT L  &hm RCTRL SEMI  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans                          &trans  &trans
+            >;
+
+            sensor-bindings = <&ROTATE SCRL_DOWN SCRL_UP>;
+        };
     };
 };
