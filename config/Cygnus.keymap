@@ -149,6 +149,30 @@
             status = "reserved";
         };
 
+        extra2 {
+            status = "reserved";
+        };
+
+        extra3 {
+            status = "reserved";
+        };
+
+        extra4 {
+            status = "reserved";
+        };
+
+        extra5 {
+            status = "reserved";
+        };
+
+        extra6 {
+            status = "reserved";
+        };
+
+        extra7 {
+            status = "reserved";
+        };
+
         win_base {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
